@@ -13,14 +13,14 @@ html {
 
 }
 
-.nav {
+.AGnav {
   margin: 0;
   padding: 0;
   list-style-type: none;
 
 }
 
-.nav > li {
+.AGnav > li {
   display: inline-block;
 }
 
