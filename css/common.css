@@ -27,6 +27,7 @@ html {
 
 .nav-top {
   font-size: 1.25rem;
+  float: right; 
 }
 
 a {

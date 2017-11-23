@@ -1,7 +1,17 @@
-
-
+<ul class="nav {{include.navclass}}">
+  <li class="nav-item">
+    <a class="nav-link " href="{{ site.baseurl }}/aboutme.html">About me</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{{ site.baseurl }}/projects.html">Projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{{ site.baseurl }}/resume.html">Resume</a>
+  </li>
+</ul>
+<!--
 <ul class="nav {{include.navclass}}">
   <li><a href="{{ site.baseurl }}/index.html" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
   <li><a href="{{ site.baseurl }}/aboutme.html" class="{% if page.url == '/aboutme.html' %}current{% endif %}">About Me</a></li>
   <li><a href="{{ site.baseurl }}/projects.html" class="{% if page.url contains 'projects' %}current{% endif %}">Projects</a></li>
-</ul>
+</ul> -->

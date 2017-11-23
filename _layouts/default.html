@@ -5,12 +5,20 @@
     <title>Andrew Goodridge</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/common.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
 
 <header>
-  <h1>Andrew Goodridge</h1>
-{% include nav.html navclass='nav-top'%}
+  <nav class="navbar navbar-expand-lg bg-light">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">AG</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+{% include nav.html navclass='nav-top ml-auto'%}
+    </div>
+  </nav>
 </header>
 
 {{content}}
