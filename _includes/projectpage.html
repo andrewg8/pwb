@@ -1,0 +1,13 @@
+<div class="container">
+  <h4>Projects</h4>
+
+  <ul>
+    {% for projects in site.posts%}
+    <li>
+      <a href="{{site.baseurl}}{{projects.url}}">{{ projects.title }}</a>
+      <p>{{ projects.meta }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div>
