@@ -19,7 +19,7 @@ a {
 }
 
 .jumbotron {
-  background-image: url({{ site.baseurl }}/design/jumbotron.png);
+  background-image: url({{ site.baseurl }}/design/Jumbotron.png);
   background-size: cover;
   background-position: top center;
   margin-top: -110px;
