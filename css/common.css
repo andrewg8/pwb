@@ -92,10 +92,14 @@ a {
 
 }
 
-.thumbnail {
-  /*background-color: red;*/
-  /*width: 30%;*/
-  padding-bottom: 40px;
+.project-row {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .project-row {
+    padding-bottom: 40px;
+  }
 }
 
 .thumbnail-pic {
@@ -103,5 +107,9 @@ a {
   padding: 0;
   width: 100%;
   height: auto;
+
+}
+.project-text:hover {
+  text-decoration: none;
 
 }

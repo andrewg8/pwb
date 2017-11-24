@@ -5,7 +5,7 @@ meta: User Interface
 source: www.behance.net/2
 category: projects
 thumbnail: design/thumbnail2.png
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae lacus a erat condimentum sagittis non id nulla. Phasellus fermentum dolor non pretium fermentum. Pellentesque vitae feugiat odio, id rutrum arcu. Nunc efficitur metus vel ex posuere, eu tempor metus efficitur.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae lacus a erat condimentum sagittis non id nulla.
 ---
 Here's some stuff about my second project!
 

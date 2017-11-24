@@ -2,15 +2,16 @@
   <h4 class="projects-header">Projects</h4>
 
   <ul class="projects-ul">
-    {% for projects in site.posts%}
-    <a href="{{site.baseurl}}{{projects.url}}">
-      <li class="row">
+    {% for projects in site.posts %}
+    <a class="project-text" href="{{site.baseurl}}{{projects.url}}">
+      <li class="row project-row">
         <div class="thumbnail col-lg-4 col-md-8">
           <img src="{{ site.baseurl }}/{{ projects.thumbnail }}" class="img-responsive thumbnail-pic"></img>
         </div>
         <div class="col-lg-7 offset-lg-1">
           <h3>{{ projects.title }}</h3>
           <p>{{ projects.meta }}</p>
+          <p>{{projects.description}}</p>
         </div>
       </li>
     </a>
