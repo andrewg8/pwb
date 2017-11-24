@@ -80,3 +80,28 @@ a {
     padding: 0px 20px 10px 20px;
   }
 }
+
+.projects-header {
+  padding-bottom: 30px;
+
+}
+
+.projects-ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+.thumbnail {
+  /*background-color: red;*/
+  /*width: 30%;*/
+  padding-bottom: 40px;
+}
+
+.thumbnail-pic {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+
+}
