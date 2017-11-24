@@ -88,7 +88,7 @@ a {
 
 .projects-ul {
   margin: 0;
-  padding: 0;
+  padding: 0 0 70px 0;
 
 }
 
@@ -112,4 +112,13 @@ a {
 .project-text:hover {
   text-decoration: none;
 
+}
+
+.footer {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: black;
+  height: 150px;
+  width: 100%;
 }
