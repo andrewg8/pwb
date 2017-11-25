@@ -81,6 +81,11 @@ a {
   }
 }
 
+.project-container{
+  padding: 30px 0 0 0;
+
+}
+
 .projects-header {
   padding-bottom: 30px;
 
@@ -115,10 +120,29 @@ a {
 }
 
 .footer {
-  background-color: white;
-  border-style: solid;
-  border-width: 1px 0px 0px 0px;
-  border-color: black;
+  background-color: #eaeaea;
+  /*border-style: solid;*/
+  /*border-width: 1px 0px 0px 0px;*/
+  /*border-color: black;*/
   height: 150px;
   width: 100%;
+}
+
+.footer-container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-left: 0px
+}
+
+.footer-container > p {
+  margin-bottom: 0;
+  padding: 40px 0 0 30px;
+  justify-content: center;
+}
+
+.nav-bottom > li {
+  padding-right: 50px;
 }
