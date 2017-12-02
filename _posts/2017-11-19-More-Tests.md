@@ -6,6 +6,7 @@ source: www.behance.net/2
 category: projects
 thumbnail: design/thumbnail2.png
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae lacus a erat condimentum sagittis non id nulla.
+postcolor: post-color-blue
 ---
 Here's some stuff about my second project!
 
